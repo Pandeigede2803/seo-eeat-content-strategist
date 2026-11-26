@@ -1,0 +1,49 @@
+---
+name: Bug report
+description: Report incorrect behavior, a broken link, or a safety gap in the skill.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue. Do **not** include real patient data,
+        private client information, or credentials.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the incorrect output or behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt used
+      description: Paste a redacted prompt that reproduces the issue.
+      render: text
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent or platform
+      options:
+        - Claude Code
+        - Claude.ai
+        - Claude API
+        - Cursor
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: This report contains no real patient data or private client information.
+          required: true

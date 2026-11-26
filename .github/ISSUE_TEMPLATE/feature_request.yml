@@ -1,0 +1,40 @@
+---
+name: Feature request
+description: Suggest a new capability, reference file, or industry profile.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What task or risk is not covered today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the change and where it belongs (SKILL.md, references/, assets/, examples/).
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Workflow
+        - Safety and compliance
+        - Audit rubric
+        - Templates and examples
+        - Installation and tooling
+        - Documentation
+    validations:
+      required: true
+  - type: checkboxes
+    id: guardrails
+    attributes:
+      label: Guardrails
+      options:
+        - label: The proposal does not weaken the anti-fabrication rules.
+          required: true

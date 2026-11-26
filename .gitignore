@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build and packaging
+dist/
+build/
+*.zip
+*.tar.gz
+
+# OS / tooling
+.turbo/
+.cache/
+coverage/
