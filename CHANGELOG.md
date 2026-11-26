@@ -6,6 +6,13 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Changed
+
+- Renamed the repository from `skill` to `seo-eeat-content-strategist` and
+  pointed the install commands at the real owner, so `npx skills add` and
+  `git clone` work as written.
+- Added a positioning tagline and a repository badge to the README.
+
 ## [1.1.0] - 2026-11-26
 
 ### Added

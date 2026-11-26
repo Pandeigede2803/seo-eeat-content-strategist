@@ -1,5 +1,9 @@
 # SEO E-E-A-T Content Strategist
 
+> Turns any AI assistant into an SEO strategist that refuses to fake a
+> citation, a credential, or a patient story.
+
+[![GitHub](https://img.shields.io/badge/GitHub-seo--eeat--content--strategist-181717?logo=github)](https://github.com/Pandeigede2803/seo-eeat-content-strategist)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/format-Agent%20Skill-6f42c1.svg)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
 [![Validate](https://img.shields.io/badge/CI-validate%20skill-success.svg)](.github/workflows/validate.yml)
@@ -101,7 +105,7 @@ progressive disclosure so detailed material loads only when needed.
 ### Option 1 — Skills CLI (recommended)
 
 ```bash
-npx skills add <your-github-user>/seo-eeat-content-strategist
+npx skills add Pandeigede2803/seo-eeat-content-strategist
 ```
 
 The CLI detects supported agents and installs the skill into the right
@@ -113,11 +117,11 @@ Clone the repository into your personal or project skills directory:
 
 ```bash
 # Personal: available in every project
-git clone https://github.com/<your-github-user>/seo-eeat-content-strategist.git \
+git clone https://github.com/Pandeigede2803/seo-eeat-content-strategist.git \
   ~/.claude/skills/seo-eeat-content-strategist
 
 # Or project-scoped
-git clone https://github.com/<your-github-user>/seo-eeat-content-strategist.git \
+git clone https://github.com/Pandeigede2803/seo-eeat-content-strategist.git \
   .claude/skills/seo-eeat-content-strategist
 ```
 
